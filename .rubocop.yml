@@ -3,6 +3,7 @@ require: rubocop-rails
 AllCops:
   Exclude:
     - db/schema.rb
+    - lib/tasks
 
 Documentation:
   Enabled: false
@@ -101,4 +102,13 @@ Style/ModuleFunction:
   Enabled: false
 
 Style/ReturnNil:
+  Enabled: true
+
+Style/HashEachMethods:
+  Enabled: true
+
+Style/HashTransformKeys:
+  Enabled: true
+
+Style/HashTransformValues:
   Enabled: true
