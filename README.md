@@ -18,3 +18,7 @@ to-do
 8. `rake code_analysis` and make sure all tests pass
 9. `rails s`
 10. You can try
+
+## Licence
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fpiloterr%2Fexplore-backend.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fpiloterr%2Fexplore-backend?ref=badge_large)
