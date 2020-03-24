@@ -19,9 +19,8 @@ module Api
 
       def update
         @task = Task.find(params[:id])
-        return unless @task.save
+        Task.update!(task_params) if @task.save
 
-        Task.update!(task_params)
         render :update, status: :created
       end
 
